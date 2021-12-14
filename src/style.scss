@@ -1,0 +1,45 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    background-color: rgba(42, 42, 255, 0.507);
+    color: white;
+    text-align: center;
+    .city-time{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        text-align: left;
+    }
+    position: relative;
+    padding: 50px 50px 10px;
+    .wrapper-windy-speed{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.main{
+    // background-color: rgb(96, 168, 1);
+    .object-weather{
+        width: 100%;
+        display:flex;
+        border: rgba(42, 42, 255, 0.507) 1px solid;
+        justify-content: space-between;
+        padding: 20px 50px ;
+        img{
+            margin-left: -40px;
+            width: 50px;;
+        }
+    }
+}
