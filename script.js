@@ -68,7 +68,7 @@ console.log(actualWeather);
 };
 
 
-let selectedCity = String(prompt('Select a city'));
+let selectedCity = String(prompt('Напишите сайт на английской расскладке'));
 
 httpRequest.open('GET', `https://api.openweathermap.org/data/2.5/forecast?q=${selectedCity}&appid=a94d0a5ac08570add4b47b8da933f247&units=metric`);
 
